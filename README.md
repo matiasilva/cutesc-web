@@ -13,8 +13,22 @@ It is hosted on the [SRCF](https://www.srcf.net).
 
 ## Development
 
+### Website
+
 1. `git clone https://github.com/matiasilva/cutesc-web.git`
 2. `cd src && hugo server`
+
+### Fetcher
+
+1. `cd scripts`
+2. Create a virtual environment and activate it
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Install dependencies: `pip install -r requirements.txt`
 
 ## License
 
